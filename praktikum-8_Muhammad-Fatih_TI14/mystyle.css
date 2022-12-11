@@ -1,0 +1,43 @@
+#header{
+    background-color: blue;
+    height: 100px;
+}
+#main{
+    background-color: red;
+    height: 500px;
+    display: flex;
+}
+#footer{
+    background-color: green;
+    height: 100px;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#aside{
+    background-color: white;
+    width: 20%;
+    height: 500px;
+}
+#article{
+    background-color: beige;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#bingkai{
+    display: flex;
+    justify-content: center;;
+}
+#bingkai img{
+    width:200px;
+    background-color: wheat;
+    border-radius: 10%;
+    margin: 10px;
+}
+#article h3{
+    text-align: center;
+}
